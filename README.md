@@ -2,6 +2,7 @@
 [ ![Download](https://api.bintray.com/packages/zhu/maven/numberview/images/download.svg) ](https://bintray.com/zhu/maven/numberview/_latestVersion)
 
 数字键盘选择控件
+
 ## Gradle
 ```
     compile 'com.zhuazhu.numberview:library1.3.0'
@@ -27,7 +28,14 @@
 设置自定义按钮文字的颜色(默认#333333)
 #### 5.setBackspaceImage
 设置退格图片
+#### 6.setCustomBackgroudColor
+设置自定义按钮背景颜色
 
+setCustomBackgroudColor(Color.pack("#ffffff"));
+#### 6.setCustomBackgroudResource
+设置自定义按钮背景颜色
+
+setCustomBackgroudResource(R.color.white);
 
 ## 监听事件
 #### 1.setOnNumberListener

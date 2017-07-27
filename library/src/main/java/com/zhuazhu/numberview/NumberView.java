@@ -99,6 +99,22 @@ public class NumberView extends LinearLayout implements View.OnClickListener{
     }
 
     /**
+     * 设置自定义按钮背景颜色
+     * @param color
+     */
+    public void setCustomBackgroudColor(int color){
+
+        mUnknown.setBackgroundColor(color);
+    }
+
+    /**
+     * 设置自定义按钮背景颜色
+     * @param colreRes
+     */
+    public void setCustomBackgroudResource(int colreRes){
+        mUnknown.setBackgroundResource(colreRes);
+    }
+    /**
      * 设置自定义按钮显示/隐藏
      * @param visible
      */

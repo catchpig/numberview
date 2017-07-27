@@ -187,7 +187,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:clickable="true"
-            android:background="@color/c_dedede"
             android:gravity="center"
             android:orientation="vertical">
 
