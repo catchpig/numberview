@@ -1,6 +1,8 @@
 # 数字键盘选择控件
 [ ![Download](https://api.bintray.com/packages/zhu/maven/numberview/images/download.svg) ](https://bintray.com/zhu/maven/numberview/_latestVersion)
 
+![image](https://github.com/zhuazhu/numberview/blob/master/746662286180003206.png)
+
 ## Gradle
 ```
     compile 'com.zhuazhu.numberview:library:lastVersion'
