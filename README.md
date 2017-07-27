@@ -32,7 +32,7 @@
 设置自定义按钮背景颜色
 
 setCustomBackgroudColor(Color.pack("#ffffff"));
-#### 6.setCustomBackgroudResource
+#### 7.setCustomBackgroudResource
 设置自定义按钮背景颜色
 
 setCustomBackgroudResource(R.color.white);
