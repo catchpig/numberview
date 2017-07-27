@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="c_ddd">#ddd</color>
+    <color name="c_333">#333</color>
+    <color name="c_dedede">#dedede</color>
+    <color name="translucence">#2000</color>
+    <color name="transparency">#0000</color>
+</resources>

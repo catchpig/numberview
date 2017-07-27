@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="numberTextSize" format="dimension"/>
+    <attr name="numberTextColor" format="color"/>
+    <declare-styleable name="NumberView">
+        <attr name="numberTextSize"/>
+        <attr name="numberTextColor"/>
+    </declare-styleable>
+</resources>
