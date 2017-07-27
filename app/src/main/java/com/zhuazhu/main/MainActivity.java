@@ -1,8 +1,7 @@
 package com.zhuazhu.main;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
 import com.zhuazhu.numberview.NumberView;
@@ -14,10 +13,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mNumberView = (NumberView) findViewById(R.id.number);
-        mNumberView.setTextSize(20);
-        mNumberView.setCustomTextVisible(View.VISIBLE);
-        mNumberView.setCustomText("清除");
-        mNumberView.setCustomTextSize(15);
+        mNumberView.setNumberTextSize(20);
+//        mNumberView.setCustomTextVisible(View.VISIBLE);
+//        mNumberView.setCustomText("清除");
+//        mNumberView.setCustomTextSize(15);
         mNumberView.setOnNumberListener(new NumberView.OnNumberListener() {
             @Override
             public void onNumber(String txt) {
