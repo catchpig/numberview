@@ -3,7 +3,7 @@
 
 ## Gradle
 ```
-    compile 'com.zhuazhu.numberview:library1.3.0'
+    compile 'com.zhuazhu.numberview:library:lastVersion'
 ```
 
 ## 在xml中添加NumberView
