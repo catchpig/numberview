@@ -196,7 +196,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/c_333"
                 android:textSize="15sp"
-                android:visibility="gone"/>
+                android:text="." />
         </LinearLayout>
 
         <View

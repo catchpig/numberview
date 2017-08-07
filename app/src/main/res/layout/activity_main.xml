@@ -5,6 +5,40 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="bottom">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置最大位数"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/maxlengthEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:digits="1234567890"
+            android:textSize="12sp"
+            android:textColor="@color/c_333"
+            android:text="确定"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_margin="12dp"
+        android:id="@+id/money"
+        android:layout_width="match_parent"
+        android:textColor="@color/c_333"
+        android:textSize="30sp"
+        android:layout_height="wrap_content" />
+
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
@@ -12,7 +46,7 @@
     <com.zhuazhu.numberview.NumberView
         android:id="@+id/number"
         android:layout_width="match_parent"
-        android:layout_height="250dp">
+        android:layout_height="400dp">
 
     </com.zhuazhu.numberview.NumberView>
 </LinearLayout>
