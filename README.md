@@ -1,11 +1,20 @@
 # 数字键盘选择控件
-[ ![Download](https://api.bintray.com/packages/zhu/maven/numberview/images/download.svg) ](https://bintray.com/zhu/maven/numberview/_latestVersion)
+[ ![Download](https://jitpack.io/#zhuazhu/numberview.svg)](https://jitpack.io/#zhuazhu/numberview)
 
 ![image](https://github.com/zhuazhu/numberview/blob/master/746662286180003206.png)
 
 ## Gradle
+在Project的build.gradle中添加:
+   ```
+   allprojects {
+    	repositories {
+    		maven { url 'https://jitpack.io' }
+    	}
+    }
+   ```
+添加依赖:
 ```
-    compile 'com.zhuazhu.numberview:library:lastVersion'
+implementation 'com.github.zhuazhu:numberview:last_version'
 ```
 
 ## 在xml中添加NumberView
