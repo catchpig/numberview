@@ -1,5 +1,5 @@
 # 数字键盘选择控件
-[ ![Download](https://jitpack.io/#zhuazhu/numberview.svg)](https://jitpack.io/#zhuazhu/numberview)
+[ ![Download](https://jitpack.io/v/zhuazhu/numberview.svg)](https://jitpack.io/#zhuazhu/numberview)
 
 ![image](https://github.com/zhuazhu/numberview/blob/master/746662286180003206.png)
 
